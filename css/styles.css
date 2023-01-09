@@ -7,7 +7,18 @@
 body {
   font-family: Roboto, sans-serif;
 }
+h1 {
+  padding: 0;
+  margin: 0;
+}
 /*heder*/
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200;
+  background-color: tomato;
+
+}
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -25,7 +36,11 @@ body {
 .list {
   list-style: none;
 }
-
+.header-items  {
+  display: flex;
+  background-color: tomato;
+  margin-right: 50px;
+}
 .site-nav-current {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -33,6 +48,7 @@ body {
   line-height: 1.1;
 }
 .site-nav {
+  
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -71,6 +87,8 @@ body {
   font-size: 44px;
   line-height: 1.4;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
 }
 /*section*/
 .section-title {
