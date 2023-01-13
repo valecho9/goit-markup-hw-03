@@ -223,6 +223,7 @@ ul {
 .item {
   flex-basis: calc((100% - 30px) / 3);
   border-bottom: 1px solid #eeeeee;
+  margin-bottom: 30px;
 }
 .btn:hover,
 .btn:focus {
