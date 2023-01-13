@@ -46,6 +46,7 @@ ul {
   color: var(--text-color);
   text-decoration: none;
 
+  display: block;
   margin-right: 93px;
   margin-bottom: 28px;
 }
@@ -54,7 +55,6 @@ ul {
 }
 .logo-footer {
   color: var(--accent-color);
-  margin-bottom: 28px;
 }
 .list {
   list-style: none;
