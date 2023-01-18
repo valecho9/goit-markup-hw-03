@@ -24,6 +24,9 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.section-content {
+  padding-top: 0;
+}
 /*heder*/
 .container {
   margin-left: auto;
@@ -35,7 +38,8 @@ ul {
 .heder-container {
   display: flex;
   align-items: center;
-  margin-bottom: 94px;
+}
+.header-content {
   border-bottom: 1px solid #ececec;
 }
 .logo-link {
@@ -48,7 +52,6 @@ ul {
 
   display: block;
   margin-right: 93px;
-  margin-bottom: 28px;
 }
 .logo-heder {
   color: var(--primary-text-color);
@@ -59,9 +62,9 @@ ul {
 .list {
   list-style: none;
 }
+
 .header-items {
   display: flex;
-  margin-right: 354px;
 }
 .header-items li:not(:last-child) {
   margin-right: 50px;
@@ -116,7 +119,9 @@ ul {
 .hero {
   background-color: #2f303a;
   text-align: center;
-  margin-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin: 0 auto;
 }
 .hero-title {
   color: var(--accent-color);
@@ -125,11 +130,12 @@ ul {
   line-height: 1.4;
   text-transform: uppercase;
   text-align: center;
+
   margin-bottom: 30px;
+  max-width: 100%;
 }
 .items {
   display: flex;
-  text-align: center;
 }
 /*section*/
 .section-title {
@@ -139,9 +145,13 @@ ul {
   background-color: #f5f4fa;
 }
 /*h3*/
-.text-list :not(:last-child) {
+.text-list:not(:last-child) {
   margin-right: 30px;
 }
+.text-list {
+  width: 270px;
+}
+
 .feature-list-title {
   color: var(--primary-text-color);
   font-size: 14px;
@@ -154,7 +164,6 @@ ul {
   font-size: 16px;
   line-height: 1.18;
 
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 /*h2*/
@@ -173,7 +182,6 @@ ul {
   margin-right: 30px;
 }
 .meta {
-  width: 270px;
   display: flex;
   justify-content: space-between;
 }
@@ -225,6 +233,10 @@ ul {
   border-bottom: 1px solid #eeeeee;
   margin-bottom: 30px;
 }
+.list-aside {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .btn:hover,
 .btn:focus {
   color: var(--accent-color);
@@ -239,19 +251,28 @@ ul {
   margin-top: 20px;
   margin-bottom: 4px;
 }
+.pic {
+  display: block;
+}
 .tagline {
   color: var(--main-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-
-  margin-bottom: 20px;
+}
+.aside {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 /*footer*/
 .footer {
   background-color: #2f303a;
   width: 1600px;
   height: 251px;
+}
+.footer-logo {
+  margin-bottom: 28px;
 }
 .contact {
   color: rgba(255, 255, 255, 0.6);
