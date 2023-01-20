@@ -121,7 +121,6 @@ ul {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin: 0 auto;
 }
 .hero-title {
   color: var(--accent-color);
@@ -131,8 +130,8 @@ ul {
   text-transform: uppercase;
   text-align: center;
 
-  margin-bottom: 30px;
-  max-width: 100%;
+  margin: 0 auto;
+  max-width: 696px;
 }
 .items {
   display: flex;
@@ -214,6 +213,7 @@ ul {
   line-height: 1.62;
 
   border-radius: 4px;
+  padding: 6px 22px;
 }
 .items-btn {
   display: flex;
@@ -226,16 +226,16 @@ ul {
 .pagination {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 30px;
 }
 .item {
-  flex-basis: calc((100% - 30px) / 3);
-  border-bottom: 1px solid #eeeeee;
-  margin-bottom: 30px;
+  flex-basis: calc((100% - 60px) / 3);
 }
 .list-aside {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
+  border-top: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .btn:hover,
 .btn:focus {
@@ -248,7 +248,7 @@ ul {
   font-size: 18px;
   line-height: 2;
 
-  margin-top: 20px;
+  margin: 0px;
   margin-bottom: 4px;
 }
 .pic {
@@ -268,8 +268,8 @@ ul {
 /*footer*/
 .footer {
   background-color: #2f303a;
-  width: 1600px;
-  height: 251px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   margin-bottom: 28px;
@@ -305,5 +305,5 @@ ul {
 }
 
 .footer-contact {
-  margin-bottom: 60px;
+  margin-bottom: 0;
 }
